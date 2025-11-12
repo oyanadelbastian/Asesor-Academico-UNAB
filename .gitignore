@@ -1,12 +1,37 @@
-ncredentials.json
-n*.log
+# Dependencies
+node_modules/
 
-temp/
-ncredentials.json
-n*.log
+# Environment variables
+.env
+.env.local
+.env.*.local
 
-temp/
-ncredentials.json
-n*.log
+# n8n credentials
+credentials.json
+*credentials*.json
 
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
 temp/
+tmp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# n8n specific
+.n8n/
+*.db
+*.sqlite
+
+# Backups
+*.backup
+*.bak
